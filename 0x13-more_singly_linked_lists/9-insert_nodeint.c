@@ -1,5 +1,4 @@
 #include "lists.h"
-
 /**
  * insert_nodeint_at_index - Inserts a new node to a listint_t
  *                           list at a given position.
@@ -12,6 +11,7 @@
  * Return: If the function fails - NULL.
  *         Otherwise - the address of the new node.
  */
+
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
 	listint_t *new, *copy = *head;
